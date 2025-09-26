@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicio Final - Guía 4</title>
+</head>
+<body>
+
+    <label for="dia">Elige un día de la semana:</label>
+    <select id="dia">
+        <option value="">-- Selecciona un día --</option>
+        <option value="lunes">Lunes</option>
+        <option value="martes">Martes</option>
+        <option value="miércoles">Miércoles</option>
+        <option value="jueves">Jueves</option>
+        <option value="viernes">Viernes</option>
+        <option value="sábado">Sábado</option>
+    </select>
+
+    <br><br>
+
+    <label for="mensaje">Escribe un recordatorio extra:</label>
+    <input type="text" id="mensaje" placeholder="Ej: No olvidar los papeles">
+
+    <br><br>
+
+    <button onclick="mostrarRecordatorio()">Ver recordatorio</button>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
